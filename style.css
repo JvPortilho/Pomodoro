@@ -1,0 +1,58 @@
+
+body {
+    background: #4AA96C;
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  
+  .heading {
+    color: #F55C47;
+  }
+  
+  
+  .timer {
+    color: #564A4A;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid #564A4A;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+
+  .btn {
+    padding: 0;
+  }
+  
+  .fa-play,
+  .fa-redo-alt {
+    color: #FFA900;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .fa-play:hover,
+  .fa-redo-alt:hover {
+    color: #FFA900;
+    border: 2px solid #FFA900;
+    transition: 0.3s ease;
+  }
+  
+  /
+  .show_message {
+    display: block;
+    padding: 1rem 0;
+    color: #564A4A;
+    background: #564A4A;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+  }
+  
